@@ -4,9 +4,9 @@ A modern order management system with real-time updates, automated email notific
 
 ## Images
 
-<img src="images/img1.png" alt="Project Screenshot 1" style="border: 2px solid #000; border-radius: 8px;  margin-bottom: 20px;"/>
+<img src="images/img1.png" alt="Project Screenshot 1" style="border:2px solid black; display:block; margin-bottom:20px;"/>
 
-<img src="images/img2.png" alt="Project Screenshot 2" style="border: 2px solid #000; border-radius: 8px;  margin-bottom: 20px;"/>
+<img src="images/img2.png" alt="Project Screenshot 2" style="border:2px solid black; display:block; margin-bottom:20px;"/>
 
 ## ✨ Features
 
