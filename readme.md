@@ -2,6 +2,11 @@
 
 A modern order management system with real-time updates, automated email notifications, and live synchronization across all connected clients.
 
+## Images
+
+![Project Screenshot](images/img1.png)
+![Project Screenshot](images/img2.png)
+
 ## ✨ Features
 
 - **Real-time Updates**: Instant order synchronization using MongoDB Change Streams
