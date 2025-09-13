@@ -75,8 +75,8 @@ real-time-order-system/
 
 **Frontend**
 
-- Next.js 14
-- React 18
+- Next.js 15
+- React 19
 - Socket.IO Client
 - Tailwind CSS
 
@@ -93,8 +93,7 @@ real-time-order-system/
 1. **Clone & Install**
 
 ```bash
-git clone <repository-url>
-cd real-time-order-system
+
 
 # Install backend dependencies
 cd backend
@@ -226,39 +225,6 @@ const sendOrderStatusUpdate = async (order) => {
   });
 };
 ```
-
-## 🚀 Production Deployment
-
-### Docker Setup
-
-```yaml
-# docker-compose.yml
-version: "3.8"
-services:
-  mongodb:
-    image: mongo:6.0
-    command: ["--replSet", "rs0"]
-
-  backend:
-    build: ./backend
-    ports:
-      - "3001:3001"
-    depends_on:
-      - mongodb
-
-  frontend:
-    build: ./frontend
-    ports:
-      - "3000:3000"
-```
-
-### Environment Setup
-
-- **Frontend**: Deploy to Vercel
-- **Backend**: Deploy to Railway/Heroku
-- **Database**: MongoDB Atlas with replica set
-
-## 📊 Testing & Validation
 
 ### Test Real-time Features
 
